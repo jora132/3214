@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotationY="-41"
+        android:text="Здравсьвуйте"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="76dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotationY="34"
+        android:text="Досвидания"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="596dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_delete"
+        tools:layout_editor_absoluteX="189dp"
+        tools:layout_editor_absoluteY="668dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="READY"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="455dp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YES OR NO"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotationY="41"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="252dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="122dp"
+        android:layout_height="63dp"
+        android:rotationX="-11"
+        android:text="ABOBA"
+        tools:layout_editor_absoluteX="189dp"
+        tools:layout_editor_absoluteY="211dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="72dp"
+        android:layout_height="52dp"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="343dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="79dp"
+        android:layout_height="127dp"
+        android:rotationX="56"
+        android:rotationY="4"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="503dp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CheckBox"
+        tools:layout_editor_absoluteX="293dp"
+        tools:layout_editor_absoluteY="517dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="80dp"
+        android:layout_height="87dp"
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        tools:layout_editor_absoluteX="315dp"
+        tools:layout_editor_absoluteY="312dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
